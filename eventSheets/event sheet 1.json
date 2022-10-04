@@ -1,0 +1,75 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 250356512985305,
+					"parameters": {
+						"object": "enemy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 544900870221494
+				}
+			],
+			"sid": 855020914843355
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 380150400029127,
+					"parameters": {
+						"object": "EnemyHitPoint"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 309813855347021,
+					"parameters": {
+						"layout": "Layout 2"
+					}
+				}
+			],
+			"sid": 376794674732187
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 703043535926782,
+					"parameters": {
+						"object": "Enemy2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 824882999060318,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				}
+			],
+			"sid": 922453238789634
+		}
+	],
+	"sid": 241676139419151
+}
