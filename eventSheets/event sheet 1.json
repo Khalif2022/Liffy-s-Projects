@@ -47,6 +47,10 @@
 			"sid": 376794674732187
 		},
 		{
+			"eventType": "comment",
+			"text": "Test comment added here."
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
