@@ -73,6 +73,47 @@
 				}
 			],
 			"sid": 922453238789634
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 836665990176750
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "EnemyHitPoint",
+					"sid": 165244503402316,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "enemy",
+						"image-point": "3",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Fallingenemyhitpoint",
+					"sid": 115599521057683,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Fallingenemy",
+						"image-point": "1",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 419361356842691
 		}
 	],
 	"sid": 241676139419151

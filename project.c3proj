@@ -45,6 +45,14 @@
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7zle4vwl5zz",
@@ -54,7 +62,9 @@
 			"Player",
 			"enemy",
 			"EnemyHitPoint",
-			"Enemy2"
+			"Enemy2",
+			"Fallingenemy",
+			"Fallingenemyhitpoint"
 		],
 		"subfolders": []
 	},

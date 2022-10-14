@@ -1,14 +1,14 @@
 {
-	"name": "EnemyHitPoint",
+	"name": "Fallingenemyhitpoint",
 	"plugin-id": "Sprite",
-	"sid": 710768125760941,
+	"sid": 234345892374706,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Pin",
 			"name": "Pin",
-			"sid": 178534526097363
+			"sid": 117365703011472
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9210905,
+						"imageSpriteId": 8790366,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 997203276934719,
+				"sid": 804069866017113,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
